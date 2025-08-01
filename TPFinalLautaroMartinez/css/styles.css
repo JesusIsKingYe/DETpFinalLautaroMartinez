@@ -1,0 +1,160 @@
+ body{
+    height: 4000px;
+    width: 1300px;
+     /* Display establece el tipo de modelo de diseño para el contenedor padre */
+    display: flex;  /*Modelo flexbox organiza de manera flexible y adaptable los elementos dentro del contenedor padre */
+    /* Flexdirection define la direccion principal en la que se colocan los elementos dentro del contenedor padre */
+    flex-direction: column; /*Column organiza los elementos verticalmente */
+    /* justify-content: alinea y distribuye los elementos a lo largo del eje principal */
+    justify-content: space-around; /* space-around deja espacios entre cada elemento margenes incluidos*/
+}
+
+header{
+    height: 150px;
+    background-color: #ff0000;
+    /* Display establece el tipo de modelo de diseño para el contenedor padre */
+    display: flex; /*Modelo flexbox organiza de manera flexible y adaptable los elementos dentro del contenedor padre*/
+    /* Flexdirection define la direccion principal en la que se colocan los elementos dentro del contenedor padre */
+    flex-direction: column; /* column organiza los elementos verticalmente*/
+    /* align-items: alinea los elementos a lo largo del eje transversal (perpendicular al eje principal, predeterminadamente vertical) */
+    align-items: center; /* center: Centra los elementos en el eje transversal*/
+}
+ul{
+    list-style-type: none;
+    /* Display establece el tipo de modelo de diseño para el contenedor padre */
+    display: flex; /*Modelo flexbox organiza de manera flexible y adaptable los elementos dentro del contenedor padre*/
+    /* Flexdirection define la direccion principal en la que se colocan los elementos dentro del contenedor padre */
+    flex-direction: row; /* Row organiza los elementos horizontalmente*/
+    /*align-items: Alinea los elementos a lo largo del eje transversal (perpendicular al eje principal, predeterminadamente vertical*/
+    align-items: center; /* center: Centra los elementos en el eje transversal */
+    /* Justify-content: alinea y distribuye los elementos a lo largo del eje principal */
+    justify-content: space-around; /* space-around: deja espacios entre cada elemento margenes incluidos*/
+}
+nav{
+    width: 800px;
+}
+
+main{
+    height: 3750px;
+    background-color: rgb(163, 163, 255);
+    /* Display establece el tipo de modelo de diseño para el contenedor padre */
+    display: flex; /* Modelo flexbox organiza de manera flexible y adaptable los elementos dentro del contenedor padre*/
+    /* Flexdirection define la direccion principal en la que se colocan los elementos dentro del contenedor padre */
+    flex-direction: column; /* Column organiza los elementos verticalmente*/
+
+    align-items: center; /* center: centra los elementos en el eje transversal*/
+}
+section {
+    /* Display establece el tipo de modelo de diseño para el contenedor padre */
+    display: flex; /* modelo flexbox organiza de manera flexible y adaptable los elementos dentro del contenedor padre*/
+    /* flexdirection: define la direccion principal en la que se colocan los elementos dentro del contenedor */
+    flex-direction: column; /* Column organiza los elementos verticalmente*/
+    /* align-items: alinea los elementos a lo largo del eje transversal (perpendicular al eje principal, predeterminadamente vertical */
+    align-items: center; /* center: centra los elementos en el eje transversal*/
+}
+#galpadre{
+    width: 100%;
+    height: 800px;
+    /* Display establece el tipo de modelo de diseño para el contenedor padre */
+    display: flex; /* modelo flexbox organiza de manera flexible y adaptable los elementos dentro del contenedor padre*/
+
+    flex-wrap: wrap;
+    /* flexdirection: define la direccion principal en la que se colocan los elementos dentro del contenedor */
+    flex-direction: row; /* Row organiza los elementos horizontalmente*/
+    /* justify-content: alinea y distribuye los elementos a lo largo del eje principal */
+    justify-content: space-around; /* space-around: deja espacios entre cada elemento margenes incluidos*/
+    /* align-content: alinea las lineas de elementos en el eje transversal cuando hay muchas lineas o columnas */
+    align-content: space-around; /* space-around: deja espacio igual en cada línea*/
+}
+.galcard{
+    height: 380px;
+    width: 300px;
+    /* display: establece el tipo de modelo de diseño para el contenedor padre */
+    display: flex; /* Modelo flexbox organiza de manera flexible y adaptable los elementos dentro del contenedor padre*/
+    /*  flexdirection: define la direccion principal en la que se colocan los elementos dentro del contenedor */
+    flex-direction: column; /* Column organiza los elementos verticalmente*/
+    /* justify-content: alinea y distribuye los elementos a lo largo del eje principal  */
+    justify-content: space-around; /* space-around: deja espacios entre cada elemento margenes incluidos*/
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    background-color: #ffffff;
+}
+.cuerpo{
+    padding: 10px;
+}
+.titulo {
+    font-size: 24px;
+    padding: 10px;
+}
+.pie2{
+    width: 100%;
+    /* display: establece el tipo de modelo de diseño para el contenedor padre */
+    display: flex; /* Modelo flexbox organiza de manera flexible y adaptable los elementos dentro del contenedor padre*/
+    /* Justify-content: alinea y distribuye los elementos a lo largo del eje principal */
+    justify-content: space-around; /* space-around: deja espacios entre cada elemento margenes incluidos*/
+    text-align: center;
+
+}
+.pie{
+    height: 30px;
+    width: 100%;
+    /* display: establece el tipo de modelo de diseño para el contenedor padre */
+    display: flex; /* Modelo flexbox organiza de manera flexible y adaptable los elementos dentro del contenedor padre*/
+    /* justify-content: alinea y distribuye los elementos a lo largo del eje principal */
+    justify-content: space-around; /* space-around: deja espacios entre cada elemento margenes incluidos*/
+    text-align: center;
+}
+.pie2{
+    height: 90%;
+    width: 90%;
+    background: #6699ff;
+    border-radius: 30px;
+    /* display: establece el tipo de modelo de diseño para el contenedor padre */
+    display: flex; /* Modelo flexbox organiza de manera flexible y adaptable los elementos dentro del contenedor padre*/
+    /* align-items: alinea los elementos a lo largo del eje transversal (perpendicular al eje principal, predeterminadamente vertical) */
+    align-items: center; /* Center: centra los elementos en el eje transversal*/
+}
+
+#ini, #org {
+    text-align: center;
+}
+
+#con{
+    width: 100%;
+}
+.artcon{
+    width: 100%;
+    font-size: 20px;
+    /* Display: establece el tipo de modelo de diseño para el contenedor padre */
+    display: flex; /* Modelo flexbox organiza de manera flexible y adaptable los elementos dentro del contenedor padre*/
+    /* flexdirection: define la direccion principal en la que se colocan los elementos dentro del contenedor */
+    flex-direction: row; /* Row: organiza los elementos de manera horizontal*/
+    /* Justify-content: Alinea y distribuye los elementos a lo largo del eje principal */
+    justify-content: space-around; /* space-around: deja espacios entre cada elemento margenes incluidos*/
+    
+}
+.artcondet{
+    /* display: establece el tipo de modelo de diseño para el contenedor padre */
+    display: flex; /* modelo flexbox organiza de manera flexible y adaptable los elementos dentro del contenedor padre */
+    /* flexdirection: define la direccion principal en la que se colocan los elementos dentro del contenedor */
+    flex-direction: row; /* Row: organiza los elementos de manera horizontal*/
+    /* Align-items: alinea los elementos a lo largo del eje transversal (perpendicular al eje principal, predeterminadamente vertical) */
+    align-items: center; /*Center: centra los elementos en el eje transversal*/
+}
+
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: #ff6464;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.roba-datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
