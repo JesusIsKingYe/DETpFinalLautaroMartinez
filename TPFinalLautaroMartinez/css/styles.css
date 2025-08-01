@@ -41,7 +41,6 @@ main{
     display: flex; /* Modelo flexbox organiza de manera flexible y adaptable los elementos dentro del contenedor padre*/
     /* Flexdirection define la direccion principal en la que se colocan los elementos dentro del contenedor padre */
     flex-direction: column; /* Column organiza los elementos verticalmente*/
-
     align-items: center; /* center: centra los elementos en el eje transversal*/
 }
 section {
@@ -155,6 +154,5 @@ a {
 .roba-datos {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
 }
